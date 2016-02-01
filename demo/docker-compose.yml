@@ -1,0 +1,9 @@
+spark:
+    image: antlypls/spark:1.5.1
+    command: bash
+    volumes:
+        - ./target/scala-2.10:/app
+    external_links:
+        - ubuntukafka_kfkm_1:kafka
+        - ubuntuzookeeper_zkm_1:zk1
+
