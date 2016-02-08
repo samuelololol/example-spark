@@ -1,14 +1,6 @@
 reference from: [http://blog.antlypls.com/blog/2015/10/05/getting-started-with-spark-streaming-using-docker/](http://blog.antlypls.com/blog/2015/10/05/getting-started-with-spark-streaming-using-docker/)
 
 
-## sbt project
-
-* project/build.properties
-    * used to inform sbt which version it should use for the build
-* build.sbt
-    * defines the actual settings for the build
-
-
 ### create project
 
 ```
